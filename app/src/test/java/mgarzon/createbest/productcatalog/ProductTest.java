@@ -22,7 +22,7 @@ public class ProductTest {
         Product aProduct = new Product("1", "DELL MONITOR", 180);
         double p = aProduct.getPrice();
         String prix = Double.toString(p);
-        assertEquals("Check the price of the product", "180", prix);
+        assertEquals("Check the price of the product", "180.0", prix);
     }
 
 
